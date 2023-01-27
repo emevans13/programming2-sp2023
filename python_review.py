@@ -22,3 +22,6 @@ when you do a range of #'s, it'll print 0 to the number before it
 for i in range(sum):
 	print(i)
 
+print("this is soooooo cool!")
+
+
