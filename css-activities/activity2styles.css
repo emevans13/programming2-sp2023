@@ -1,0 +1,42 @@
+.odd {
+	background-color: lightpink;
+	font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.odd2 {
+	font-size: 24px;
+}
+
+#num2 {
+	color: blue;
+	font-size: 36px;
+}
+
+#num4 {
+	background-color: lightgreen;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.even {
+	border-style: dotted;
+}
+
+.odd3 {
+	border-color: orange;
+	font-family: 'Amatic SC';
+}
+
+
+h1, h2, h3 {
+	color: turquoise;
+	background-color: darkblue;
+}
+
+h2 {
+	background-color: honeydew;
+}
+
+h1 {
+	font-family: cursive;
+}
