@@ -1,0 +1,30 @@
+* {
+	font-size: 28px;
+	font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+#button1, #button2 {
+	font-size: 28px;
+	font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+#button1 {
+	background-color: black;
+	color: white;
+}
+
+#button2 {
+	background-color: yellow;
+}
+
+input {
+	width: 20%;
+}
+
+#submit {
+	background-color: hotpink;
+}
+
+.function myFunction() {
+	alert: "Name displayed here.";
+}
