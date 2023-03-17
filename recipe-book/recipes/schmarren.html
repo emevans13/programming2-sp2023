@@ -4,17 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Schmarren</title>
+	<link rel="stylesheet" href="styles.css">
 	<!--extra credit #2 (button)-->
-		<p><a href="../index.html"><button class="favorite styled" type="button">Emily's Recipes!</button></a>
 		<h1>Schmarren</h1>
+		<p><a class="emilysrecipes-button" href="../index.html"><button class="favorite styled" type="button">Emily's Recipes!</button></a>
 </head>
 <body style="background-color: #a5daf0;"><!--extra credit #3 (background color)-->
-	<img src="https://www.gusto.at/_storage/asset/7093752/storage/womanat:slideshow-large/file/192951136/2009-02-034-A.jpg" style="width: 50%; height: auto; border: 3px solid blue;"><!--extra credit #4 (border)-->
-		<h2>Description</h2>
-		<p>Pronounced [sha-more-ren], this traditional Slovenian dish is similar to pancakes, and always eaten for breakfast when I visit my grandparents! The batter creates light and fluffy dough that can be dusted with powdered sugar to enjoy.</p>
-			<img src="../images/schmarren photo.png" style="width: 50%; height: auto; border: 3px solid blue">
-			<p><i>This is a photo of the recipe my great grandmother used in a Slovenian cooking class in 1978, with some of her handwritten notes!</i></p>
-			<h3>Ingredients</h3>
+	<img class="image" src="https://www.gusto.at/_storage/asset/7093752/storage/womanat:slideshow-large/file/192951136/2009-02-034-A.jpg" style="width: 50%; height: auto; border: dotted blue;"><!--extra credit #4 (border)-->
+		<h2 class="description-header">Description</h2>
+		<p class="description">Pronounced [sha-more-ren], this traditional Slovenian dish is similar to pancakes, and always eaten for breakfast when I visit my grandparents! The batter creates light and fluffy dough that can be dusted with powdered sugar to enjoy.</p>
+			<img class="image" id="schmarren-image" src="../images/schmarren photo.png">
+			<p style="text-align: center"><i>This is a photo of the recipe my great grandmother used in a Slovenian cooking class in 1978, with some of her handwritten notes!</i></p>
+		<div class="ingredients" id="ingredients-schmarren">
+			<h3 class="list-header">Ingredients</h3>
 			<ul>
 				<li>4 eggs</li>
 				<li>3 tablespoons sugar</li>
@@ -25,7 +27,9 @@
 				<li>4 tablespoons butter</li>
 				<li>powdered sugar</li>
 			</ul>
-		<h4>Steps</h4>
+		</div>
+		<div class="ingredients" id="ingredients-schmarren">
+			<h4 class="list-header">Steps</h4>
 			<ol>
 				<li>Beat egg yolks and sugar. Add milk, flour, and salt until a smooth paste. Fold in beaten egg-whites into first mixture.</li>
 				<li>In a large skillet or fry-pan, melt 1 tablespoon butter, and spoon 1/4 of the mixture into the frying pan. (It should not be thinner thann 1/4 inch)</li>
@@ -33,6 +37,7 @@
 				<li>Put on platter, then with two forks tear bits of Schmarren into bite-size pieces. Repeat 3 more times for a full batch.</li>
 				<li>After tearing each batch, be sure to sprinkle with powdered sugar.</li>
 			</ol>
+		</div>
 		<label for="story">Other recipes you would like to see?</label>
 		<p><textarea id="story" name="story">Type here...</textarea></p>
 		<!--extra credit #5 (textarea)-->	

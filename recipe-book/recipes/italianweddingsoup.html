@@ -4,15 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Italian Wedding Soup</title>
+	<link rel="stylesheet" href="styles.css">
 	<!--extra credit #2 (button)-->
-		<p><a href="../index.html"><button class="favorite styled" type="button">Emily's Recipes!</button></a>
 		<h1>Italian Wedding Soup</h1>
+		<p><a class="emilysrecipes-button" href="../index.html"><button class="favorite styled" type="button">Emily's Recipes!</button></a>
 </head>
 <body style="background-color: #adf7cd;"><!--extra credit #3 (background color)-->
-	<img src="https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/italian-wedding-soup/_600x600_crop_center-center_61_line/ItalianWeddingSoup_SMALL.jpg"style="width: 35%; height: auto; border: 3px solid green;"><!--extra credit #4 (border)-->
-		<h2>Description</h2>
-		<p>This warm and delicious soup with meatballs, veggies, and chicken broth is a dish that my family and I cook almost every weekend!</p>
-		<h3>Ingredients</h3>
+	<img class="image" id="iws-image" src="https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/italian-wedding-soup/_600x600_crop_center-center_61_line/ItalianWeddingSoup_SMALL.jpg"><!--extra credit #4 (border)-->
+		<h2 class="description-header">Description</h2>
+		<p class="description">This warm and delicious soup with meatballs, veggies, and chicken broth is a dish that my family and I cook almost every weekend!</p>
+<div>
+	<div class="ingredients" id="ingredients-iws">
+		<h3 class="list-header">Ingredients</h3>
 		<p><i>For the meatballs:</i></p>
 			<ul>
 				<li>3/4 poung ground chicken</li>
@@ -26,7 +29,10 @@
 				<li>1 extra-large egg, lightly beaten</li>
 				<li>Kosher salt and freshly ground black pepper</li>
 			</ul>
-		<p><i>For the soup:</i></p>
+	</div>
+</div>
+	<div class="ingredients" id="ingredients-iws">
+		<p class="list-header"><i>For the soup:</i></p>
 			<ul>
 				<li>2 tablespoons good olive oil</li>
 				<li>1 cup minced yellow onion</li>
@@ -38,7 +44,9 @@
 				<li>1/4 cup minced fresh dill</li>
 				<li>12 ounces baby spinach, washed and trimmed</li>
 			</ul>
-		<h4>Steps</h4>
+	</div>
+	<div id="steps-iws">
+		<h4 class="list-header">Steps</h4>
 			<ol>
 				<li>Preheat the oven to 350 degrees.</li>
 				<li>For the meatballs, place the ground chicken, sausage, bread crumbs, garlic, parsley, Pecorino, Parmesan, milk, egg, 1 teaspoon salt, and 1/2 teaspoon pepper in a bowl and combine gently with a fork.</li>
@@ -50,6 +58,7 @@
 				<li>Add the fresh dill and then the meatballs to the soup and simmer for 1 minute. Taste for salt and pepper.</li>
 				<li>Taste for salt and pepper. Stir in the fresh spinach and cook for 1 minute, until the spinach is just wilted. Ladle into soup bowls and sprinkle each serving with extra grated Parmesan cheese.</li>
 			</ol>
+		</div>
 		<label for="story">Other recipes you would like to see?</label>
 		<p><textarea id="story" name="story">Type here...</textarea></p>
 		<!--extra credit #5 (textarea)-->	

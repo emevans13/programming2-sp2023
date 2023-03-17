@@ -1,0 +1,127 @@
+* {
+	font-family: sans serif;
+	color: black;
+}
+
+body {
+	background-color: plum;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+#emilysrecipes-h1 {
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 0px;
+}
+
+#mainpage-border {
+	border-style: dotted;
+	border-color: midnightblue;
+	border-width: thick;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding: 15px;
+	margin-top: 230px;
+}
+
+.homepage-button {
+	text-align: center;
+	display: block;
+	padding: 4px;
+}
+
+.emilysrecipes-button {
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 4px;
+}
+
+#iws-image {
+	width: 35%;
+	height: auto;
+	border: dotted green;
+}
+
+#schmarren-image {
+	width: 50%;
+	height: auto;
+	border: dotted blue;
+}
+
+.chexmix-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 4px;
+	width: 28%;
+	height: auto;
+	border: dotted orange;
+}
+
+#ingredients-iws {
+	border-color: green;
+}
+
+#ingredients-schmarren {
+	border-color: blue;
+}
+
+#ingredients-chexmix {
+	border-color: orange;
+}
+
+.ingredients {
+	border-style: solid;
+	border-width: medium;
+	display: block;
+	padding: 10px;
+	margin-right: 400px;
+	margin-left: 400px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+#steps-iws {
+	border-color: green;
+	border-style: solid;
+	border-width: medium;
+	display: block;
+	padding: 10px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 5px;
+
+}
+
+.list-header {
+	margin-top: 0px;
+}
+
+.description-header {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 30px;
+}
+
+.description {
+	text-align: center;
+}
+
+.center-textbox {
+	margin-left: 40px;
+}
