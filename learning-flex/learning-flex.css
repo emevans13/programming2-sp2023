@@ -1,0 +1,23 @@
+* {
+	font-family: sans-serif;
+	background-color: magenta;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.dog-image {
+  width: 200px;
+  margin: 10px;
+  border-style: solid;
+  border-width: medium;
+  border-color: purple;
+}
