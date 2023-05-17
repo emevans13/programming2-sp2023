@@ -1,0 +1,45 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+p {
+	display: inline;
+}
+
+.middle {
+
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+
+}
+
+.right {
+
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: 
+}

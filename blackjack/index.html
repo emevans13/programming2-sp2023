@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>BlackJack</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div>
+		<button id="instructions" onclick="openInstructions()">Instructions</button>
+	</div>
+	<div id="buttons">
+		<h1 id="header">BlackJack</h1>
+		<button onclick="reset()">START</button>
+		<button onclick="hit()" disabled="true" id="hit">Hit</button>
+		<button onclick="stay()" disabled="true" id="stay">Stay</button>
+	</div>
+
+	<div>
+		<p id="user-cards">Your Cards: </p>
+		<p id="dealer-cards">Dealer's Cards: </p>
+		<p id="sum">Your Sum: </p>
+	</div>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+ 		<!-- Modal content -->
+ 		<div class="modal-content">
+   			<span id="close" onclick="closeInstructions()">&times;</span>
+   			<ol>
+   				<p>The goal is to draw cards that total 21, or come closer to 21 than the dealer without going over. (all face cards are 10)</p>
+   				<img style="height: auto; width: 40%;"src="https://clipground.com/images/cards-clipart-7.jpg">
+   				<li>Once once you hit start, you (the user) and the dealer (the computer) are dealt 2 cards.</li>
+   				<li>You may then decide if you want to "hit." If so, you're dealt another card.</li>
+   				<li>If you do not wish for another card, you can select "stay".</li>
+   				<li>Once you're finished drawing cards, the dealer will either draw cards or stay.</li>
+   			</ol>
+ 		</div>
+
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
