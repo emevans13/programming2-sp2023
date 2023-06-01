@@ -1,0 +1,127 @@
+* {
+	background-color: darkseagreen;
+	color: honeydew;
+	font-family: Nanum Myeongjo Bold;
+}
+
+.homepage {
+	background-color: honeydew;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+
+#times {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+#consultations {
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#select {
+	margin-top: 10px;
+	margin-bottom: auto;
+	background-color: honeydew;
+	color: black;
+	font-size: 25px;
+}
+
+#submit {
+	margin-top: auto;
+	color: black;
+	background-color: honeydew;
+	font-size: 15px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.form-control {
+	background-color: honeydew;
+	color: black;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#last-name {
+	margin-bottom: 30px;
+}
+
+.col: {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#date {
+	background-color: honeydew;
+	color: black;
+	font-size: 25px;
+}
+
+#dates {
+	font-size: 30px;
+}
+
+#submit {
+	background-color: honeydew;
+	color: black;
+	margin-top: 60px;
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#choose-time {
+	margin-bottom: 0px;
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-color: honeydew;
+	margin-left: 150px;
+	padding-left: 40px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	/*margin-right: 770px;*/
+	margin-top: 130px;
+	width: 400px;
+}
+
+#border {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#flowers {
+	display: flex;
+	width: auto;
+	height: 500px;
+	margin-top: 130px;
+	margin-left: 100px;
+}
+
+.form-image {
+	display: flex;
+	flex-direction: row;
+
+}
+
+#flower-image {
+	display: flex;
+}
+

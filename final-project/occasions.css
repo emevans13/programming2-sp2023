@@ -1,0 +1,62 @@
+* {
+	background-color: darkseagreen;
+	color: honeydew;
+	font-family: Nanum Myeongjo Bold;
+}
+
+.homepage {
+	background-color: honeydew;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	margin-top: 0px;
+}
+
+.occasions {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#border {
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-color: honeydew;
+	margin-right: 500px;
+	margin-left: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#big-flower-image {
+	
+	
+}
+
+#big-flower {
+	height: 200px;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	margin-left: 275px;
+}
+
+#gifts {
+	
+
+}
+
+
+
+
+

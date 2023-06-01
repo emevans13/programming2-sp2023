@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Consultations</title>
+	<link rel="stylesheet" href="consultations.css">
+</head>
+<body>
+	<a href="index.html"><button class="homepage">Homepage</button></a>
+<div class="form-image">
+  <div id="form">
+    <p id="consultations">Consultations</p>
+    <form action="/action_page.php">
+    	<div class="row">
+        	<div class="col">
+         	 	<input type="text" class="form-control" placeholder="First name">
+        	</div>
+       		<div class="col">
+          		<input id="last-name" type="text" class="form-control" placeholder="Last name">
+        	</div>
+      	</div>
+      	<div id="dates">
+      		<label for="date">Date:</label>
+      		<input type="date" id="date" name="date">
+      	</div>
+      	<p id="choose-time"><label for="times">Choose a time:</label></p>
+      	<div>
+      		<select id="select" name="times">
+        		<option value="12">12:00 pm</option>
+        		<option value="1">1:00 pm</option>
+        		<option value="2">2:00 pm</option>
+        		<option value="3">3:00 pm</option>
+      			<option value="4">4:00 pm</option>
+    			</select>
+    		</div>
+    		<!--<input id="submit" type="submit">-->
+        <a href="../contactForm/email.html"><button id="submit">Submit</button></a>
+    </form>
+  </div>
+  <div id="flower-image">
+    <img id="flowers" src="images/flowers.png">
+  </div>
+</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
+
+
