@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Nanum Myeongjo Bold;
 }
 
 .contact {
@@ -14,6 +15,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: darkseagreen;
 }
 
 .contact > div {
@@ -60,7 +62,6 @@ body {
 .contact textarea {
 	resize: none;
 	height: 8em;
-	font-family: sans-serif;
 }
 
 .contact input:focus,
@@ -78,8 +79,8 @@ body {
 	cursor: pointer;
 	width: 100%;
 	padding: 0.8em;
-	background-color: #ff742e;
-	color: #fff;
+	background-color: darkseagreen;
+	color: honeydew;
 	border-radius: 8px;
 	font-size: 1.2em;
 	transition: 0.3s;

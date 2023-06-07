@@ -1,12 +1,14 @@
 const contactForm = document.querySelector("#contact-form");
 const submitBtn = document.querySelector(".submit-btn");
 const nameInput = document.querySelector("#user_name");
+const timeInput = document.querySelector("#time");
+const dateInput = document.querySelector("#date");
 const emailInput = document.querySelector("#user_email");
 const messageInput = document.querySelector("#message");
 
-const publicKey = "vEH1UMHM39a54Za5X";
-const serviceID = "service_mxwnvlt";
-const templateID = "template_njks42p";
+const publicKey = "mYvP79rgABXl4xKKV";
+const serviceID = "service_lznfn3l";
+const templateID = "template_1z8luic";
 
 emailjs.init(publicKey);
 
@@ -16,9 +18,11 @@ contactForm.addEventListener("submit", e => {
    submitBtn.innerText = "Just a moment...";
 
    const inputFields = {
-      to_name: "Ms. Ifft",
-      from_name: nameInput.value,
-      email: emailInput.value,
+      to_name: "Ms. Shepard",
+      name: nameInput.value,
+      reply_to: emailInput.value,
+      date: dateInput.value,
+      time: timeInput.value,
       message: messageInput.value,
    };
 

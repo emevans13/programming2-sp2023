@@ -1,6 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Consultations</title>
+  <link rel="stylesheet" href="consultations.css">
+</head>
+  
+<body>
+  <section class="contact">
+    <div>
+      <a href="index.html"><button class="homepage">Homepage</button></a>
+      <h1>Contact Us</h1>
+      <p>
+        Input given information so we can set up a consultation with you! Thank you!
+      </p>
+      <form id="contact-form">
+        <label for="user_name">Name</label>
+        <input 
+          type="text"
+          id="user_name"
+          name="user_name"
+          placeholder="Your name..."
+          required
+        />
+        <label for="user_email">Email</label>
+        <input 
+          type="email"
+          id="user_email"
+          name="user_email"
+          placeholder="example@gmail.com"
+          required
+        />
+        <label for="date">Date</label>
+        <input 
+          type="date"
+          id="date"
+          name="date"
+          placeholder=none
+          required
+        />
+        <label for="time">Time</label>
+        <input 
+          type="time"
+          id="time"
+          name="time"
+          placeholder=none
+          required
+        />
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Any additional information..."
+          required
+        ></textarea>
+        <button type="submit" class="submit-btn">
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+
+<!--<!<!DOCTYPE html>
+<html>
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Consultations</title>
@@ -14,7 +81,7 @@
     <form action="/action_page.php">
     	<div class="row">
         	<div class="col">
-         	 	<input type="text" class="form-control" placeholder="First name">
+         	 	<input type="text" class="form-control" placeholder="First name" id="first-name">
         	</div>
        		<div class="col">
           		<input id="last-name" type="text" class="form-control" placeholder="Last name">
@@ -22,7 +89,7 @@
       	</div>
       	<div id="dates">
       		<label for="date">Date:</label>
-      		<input type="date" id="date" name="date">
+      		<input type="date" class="date-font" id="date" name="date">
       	</div>
       	<p id="choose-time"><label for="times">Choose a time:</label></p>
       	<div>
@@ -34,7 +101,7 @@
       			<option value="4">4:00 pm</option>
     			</select>
     		</div>
-    		<!--<input id="submit" type="submit">-->
+    		<input id="submit" type="submit">
         <a href="../contactForm/email.html"><button id="submit">Submit</button></a>
     </form>
   </div>
@@ -42,9 +109,9 @@
     <img id="flowers" src="images/flowers.png">
   </div>
 </div>
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="../contactForm/main.js"></script>
 </body>
-</html>
+</html>-->
 
 
 
